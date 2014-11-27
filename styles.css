@@ -1,0 +1,131 @@
+/* CSS rules */
+
+html, body {margin: 0px; padding: 0;}
+
+body {
+
+	padding: 0px 0;
+	font-size:11px;
+	background:  #fff333;	
+	margin-top: 30px;
+	margin-left: auto;
+	background: url(images/vante.jpg) repeat;
+	width: 100%;
+}
+
+.content  {
+	padding: 70px;
+	background: #f2f2f2;
+	margin-bottom: 70px;
+	min-height: 280px;
+}
+
+.container { 
+	font-size: 11px;
+	line-height: normal;
+	font-family: Verdana, Arial, sans-serif;
+	background: transparent; 
+	position: relative;
+	margin-right: auto;
+	margin-left: auto; 
+	width: 781px; 
+	height: 100%; 
+	visibility: visible; 
+	display: block;
+}
+
+/* menu */
+ul.menu {
+	/* clear */
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	list-style: none;
+	
+	position: absolute;
+	left: 25px;
+	bottom: 0px;
+}
+ul.menu li {
+	/* clear */
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	
+	display: block;
+	float: left;
+	margin-right: 3px;
+	background: #fff;
+	padding: 3px 10px 3px 10px;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	font-weight: bold;
+	margin-top: 2px;
+}
+ul.menu li.selected {
+	margin-top: 0;
+	background: #f2f2f2;
+	padding-bottom: 5px;
+}
+
+.supscript {
+	position: relative;
+	bottom: 0.5em;
+	font-size: 0.7em;
+}
+
+#header {
+	position: relative;
+	height:177px;
+	background: transparent;
+	visibility: visible;
+	display: block;
+	z-index:2;
+	left: 0px;
+
+}
+
+H2 { font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	font-color:#333;
+	text-align:
+}
+	
+	
+table
+{ 
+border-spacing: 0;
+border-collapse: collapse;
+/* fix for IE not inheriting font size */
+font-size: 1em;
+line-height:normal;
+}
+
+a:link
+	{
+	color:#2968BC;
+	text-decoration: none;
+	background-color: transparent
+	}
+a:visited 
+	{
+	color: #2968BC;
+	text-decoration: none;
+	background-color: transparent
+	}
+a:hover 
+	{
+	color: #032080;
+	text-decoration: none;
+	background-color: transparent
+	}
+	
+

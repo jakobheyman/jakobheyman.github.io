@@ -14,9 +14,9 @@
   <div id="header">
   <img src="images/topfig_gallery.jpg" width="780" height="177" border="0" usemap="#Map"> 
     <map name="Map">
-          <area shape="circle" coords="676,70,23" href="http://www.gu.se/english" onClick="ga('send', 'event', 'link', 'www.gu.se');">
-          <area shape="rect" coords="626,99,727,126" href="http://www.gu.se/english" onClick="ga('send', 'event', 'link', 'www.gu.se');">
-		  <area shape="rect" coords="27,108,327,126" href="http://gvc.gu.se/english" onClick="ga('send', 'event', 'link', 'gvc.gu.se');">
+          <area shape="circle" coords="676,70,23" href="http://www.gu.se/english">
+          <area shape="rect" coords="626,99,727,126" href="http://www.gu.se/english">
+		  <area shape="rect" coords="27,108,327,126" href="http://gvc.gu.se/english">
     </map>
 	<ul class="menu">
 		<li><a href="index.html">Jakob</a></li>
@@ -32,7 +32,7 @@
 	<br />
 	<a href="gallery-2008.html">Haizi Shan fieldwork 2008</a><br />
 	<br />
-	<a href="gallery-2007.html">Bayan Har fieldwork 2007</a> --- <a href="http://www.peffis.com/show_collection.php?cid=200&user=jakobh" onClick="ga('send', 'event', 'link', 'MMS-photos-2007');">MMS photos from the 2007 fieldwork</a><br />
+	<a href="gallery-2007.html">Bayan Har fieldwork 2007</a> --- <a href="http://www.peffis.com/show_collection.php?cid=200&user=jakobh">MMS photos from the 2007 fieldwork</a><br />
 	<br />
 	<a href="gallery-2006.html">Bayan Har fieldwork 2006</a><br />
 	<br />
@@ -93,16 +93,21 @@
 </div>
 </div>
 
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-12238727-1', 'auto');
-ga('require', 'linkid', 'linkid.js');
-ga('send', 'pageview');
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik-jakobheyman.rhcloud.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
 </script>
+<noscript><p><img src="//piwik-jakobheyman.rhcloud.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
 
 </body>
 </html>

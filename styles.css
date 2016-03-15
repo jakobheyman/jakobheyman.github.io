@@ -63,9 +63,9 @@ ul.menu li {
 	margin-right: 3px;
 	background: #fff;
 	padding: 3px 10px 3px 10px;
-	-moz-border-radius: 5px 5px 0 0;
-	-webkit-border-radius: 5px 5px 0 0;
-	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	-webkit-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
 	font-weight: bold;
 	margin-top: 2px;
 }
@@ -111,19 +111,19 @@ line-height:normal;
 
 a:link
 	{
-	color:#2968BC;
+	color:#F50000;
 	text-decoration: none;
 	background-color: transparent
 	}
 a:visited 
 	{
-	color: #2968BC;
+	color: #F50000;
 	text-decoration: none;
 	background-color: transparent
 	}
 a:hover 
 	{
-	color: #032080;
+	color: #820000;
 	text-decoration: none;
 	background-color: transparent
 	}

@@ -1,37 +1,42 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-		<title>Den här sidan finns inte</title>
-		
-		<link rel="stylesheet" type="text/css" href="styles.css" />
-		<link rel="icon" type="image/png" href="images/jakob.ico">
-
+    <meta charset="UTF-8">
+    <title>Den här sidan finns inte</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="icon" type="image/png" href="images/jakob.ico">
 </head>
-
 <body>
+<img src="images/topfig_nopage.jpg" class="topfig" usemap="#Map">
+<map name="Map">
+    <area shape="circle" coords="166,63,30" href="http://www.gu.se/english">
+    <area shape="rect" coords="99,99,235,137" href="http://www.gu.se/english">
+    <area shape="rect" coords="586,84,903,104" href="http://gvc.gu.se/english">
+</map>
+<div class="gradient"></div>
 <div class="container">
-<div class="content" align="center">
-	<br><br><br><br>There is no such page...<br><br>
-	...go to <a href="http://jakob.heyman.info/">jakob.heyman.info</a> instead<br><br><br><br><br><br><br><br><br>
+    <div class="content"> 
+        <ul class="menu">
+            <li class="selected"><a href="index.html">JAKOB</a></li>
+            <li><a href="research.html">RESEARCH</a></li>
+            <li><a href="publications.html">PUBLICATIONS</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+        </ul>
+        <center><br><br><br>There is no such page...<br><br>
+        ...go to <a href="http://jakob.heyman.info/">jakob.heyman.info</a> instead</center>
+    </div>
 </div>
 	
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['addDownloadExtensions', "kml|kmz"]);
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking', true]);
-  (function() {
-    var u="//piwik-jakobheyman.rhcloud.com/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 1]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12238727-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-12238727-1');
 </script>
-<noscript><p><img src="//piwik-jakobheyman.rhcloud.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
+<!-- End Google Analytics -->
 
 </body>
 </html>

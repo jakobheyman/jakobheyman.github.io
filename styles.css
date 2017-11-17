@@ -3,35 +3,51 @@
 html, body {margin: 0px; padding: 0;}
 
 body {
-
-	padding: 0px 0;
-	font-size:11px;
-	background:  #fff333;	
-	margin-top: 30px;
-	margin-left: auto;
+	position: relative;
+	padding: 0px 0px;
 	background: url(images/vante.jpg) repeat;
+	margin: 0;
 	width: 100%;
-}
-
-.content  {
-	padding: 70px;
-	background: #f2f2f2;
-	margin-bottom: 70px;
-	min-height: 280px;
+	min-width: 1000px;
+	height: auto;
+	min-height: 100vh;
 }
 
 .container { 
-	font-size: 11px;
-	line-height: normal;
+	font-size: 15px;
+	line-height: 150%;
+	text-align: justify;
 	font-family: Verdana, Arial, sans-serif;
 	background: transparent; 
 	position: relative;
-	margin-right: auto;
-	margin-left: auto; 
-	width: 781px; 
-	height: 100%; 
-	visibility: visible; 
 	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1000px; 
+	height: 100%;
+	visibility: visible;
+}
+
+.content  {
+	padding: 90px 100px 100px 100px;
+	background: rgb(245,245,245);
+	min-height: calc(100vh - 380px);
+}
+
+.topfig {
+	width: 1000px;
+	display: block;
+	margin: auto;
+}
+
+.gradient { 
+	width: 1000px;
+	height: 40px;
+	display: block;
+	background: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,1));
+	position: relative;
+	margin: auto;
+	margin-top: -40px;
 }
 
 /* menu */
@@ -44,35 +60,28 @@ ul.menu {
 	font: inherit;
 	vertical-align: baseline;
 	list-style: none;
-	
 	position: absolute;
-	left: 25px;
-	bottom: 0px;
+	left: 100px;
+	top: -28px;
 }
 ul.menu li {
 	/* clear */
 	margin: 0;
-	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	
 	display: block;
 	float: left;
-	margin-right: 3px;
-	background: #fff;
+	margin-right: 20px;
 	padding: 3px 10px 3px 10px;
-	-moz-border-radius: 4px 4px 0 0;
-	-webkit-border-radius: 4px 4px 0 0;
-	border-radius: 4px 4px 0 0;
 	font-weight: bold;
-	margin-top: 2px;
 }
 ul.menu li.selected {
-	margin-top: 0;
-	background: #f2f2f2;
-	padding-bottom: 5px;
+	border-top: 4px double rgb(245,245,245);
+	border-left: 4px double rgb(245,245,245);
+	border-right: 4px double rgb(245,245,245);
+	margin-top: -4px;
 }
 
 .supscript {
@@ -81,32 +90,70 @@ ul.menu li.selected {
 	font-size: 0.7em;
 }
 
-#header {
-	position: relative;
-	height:177px;
-	background: transparent;
-	visibility: visible;
-	display: block;
-	z-index:2;
-	left: 0px;
-
-}
-
 H2 { font-family: Verdana, Geneva, Arial, sans-serif;
-	font-size:12px;
+	font-size:16px;
 	font-weight:bold;
-	font-color:#333;
-	text-align:
 }
-	
-	
-table
+
+reftext {
+	font-size:14px;
+	line-height: normal;
+}
+
+.indexbox {
+	display: -webkit-flex;
+	display: flex;
+	width: 580px;
+	height: auto;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+    align-items: center;
+}
+.ind1 {
+	width: 50%;
+	height: auto;
+	text-align: left;
+	margin-top: 50px;
+	margin-bottom: 8px;
+}
+.ind2 {
+	width: 50%;
+	height: auto;
+	text-align: right;
+	margin-top: 50px;
+	margin-bottom: 8px;
+}
+
+.researchbox {
+	display: -webkit-flex;
+	display: flex;
+	width: 800px;
+	height: auto;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+    align-items: center;
+}
+.res1 {
+	width: 50%;
+	height: auto;
+	text-align: justify;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.res2 {
+	width: 50%;
+	height: auto;
+	text-align: right;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+table1
 { 
 border-spacing: 0;
 border-collapse: collapse;
 /* fix for IE not inheriting font size */
 font-size: 1em;
-line-height:normal;
 }
 
 a:link
@@ -128,4 +175,15 @@ a:hover
 	background-color: transparent
 	}
 	
-
+.footer {
+	display: block;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	padding: 4px 0px 4px 0px;
+	height: 8px;
+	background: rgb(180,180,180);
+	font-size: 4px;
+	font-family: Verdana, Arial, sans-serif;
+	text-align: center;
+}

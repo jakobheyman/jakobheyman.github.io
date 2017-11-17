@@ -1,66 +1,53 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-		<title>Jakob Heyman</title> 
-
-<link rel="stylesheet" type="text/css" href="styles.css" />
-<link rel="icon" type="image/png" href="images/jakob.ico">
+    <meta charset="UTF-8">
+    <title>Jakob Heyman</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="icon" type="image/png" href="images/jakob.ico">
 </head>
 <body>
-
+<img src="images/topfig_jakob.jpg" class="topfig" usemap="#Map">
+<map name="Map">
+    <area shape="circle" coords="166,63,30" href="http://www.gu.se/english">
+    <area shape="rect" coords="99,99,235,137" href="http://www.gu.se/english">
+    <area shape="rect" coords="586,84,903,104" href="http://gvc.gu.se/english">
+</map>
+<div class="gradient"></div>
 <div class="container">
-
-  <div id="header"><img src="images/topfig_jakob.jpg" width="780" height="177" border="0" usemap="#Map"> 
-    <map name="Map">
-          <area shape="circle" coords="676,70,23" href="http://www.gu.se/english">
-          <area shape="rect" coords="626,99,727,126" href="http://www.gu.se/english">
-		  <area shape="rect" coords="27,108,327,126" href="http://gvc.gu.se/english">
-    </map>
-		<ul class="menu">
-			<li class="selected"><a href="index.html">Jakob</a></li>
-			<li><a href="research.html">Research</a></li>
-			<li><a href="publications.html">Publications</a></li>
-			<li><a href="gallery.html">Gallery</a></li>
-			<li><a href="blog.html">Blog</a></li>
-		</ul>
-  </div>
-
-  <div class="content"> 
-    <table width="597" border="0">
-      <tr>
-	<td valign="top"><br /><h2><br>Jakob Heyman</h2>
-			<p>Senior lecturer<br><p>
-			University of Gothenburg<br>
-			Department of Earth Sciences<br>
-			Box 460<br>
-			405 30 Göteborg<br>
-			Sweden</p>
-            Email: <a href="mailto:jakob.heyman@gu.se">jakob.heyman@gu.se</a></p>
-	    <td valign="center" width="111"><br><img src="images/jakob.jpg" border="1" width="167" height="200" hspace="5"></td>
-	    </tr>
-      <tr>
-      </tr>
-    </table>
-  </div>
+    <div class="content"> 
+        <ul class="menu">
+            <li class="selected"><a href="index.html">JAKOB</a></li>
+            <li><a href="research.html">RESEARCH</a></li>
+            <li><a href="publications.html">PUBLICATIONS</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+        </ul>
+        <center>
+        <div class="indexbox">
+            <div class="ind1">
+                <h2>Jakob Heyman</h2>
+                <p>Senior lecturer</p>
+                <p>Department of Earth Sciences<br>
+                University of Gothenburg<br>
+                Sweden</p>
+                <p><a href="mailto:jakob.heyman@gu.se">jakob.heyman@gu.se</a></p>
+            </div>
+            <div class="ind2"><img src="images/jakob.png" height="220" width="220" hspace="5"></div>
+        </div>
+        </center>
+    </div>
 </div>
 
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['addDownloadExtensions', "kml|kmz"]);
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking', true]);
-  (function() {
-    var u="//piwik-jakobheyman.rhcloud.com/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 1]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12238727-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-12238727-1');
 </script>
-<noscript><p><img src="//piwik-jakobheyman.rhcloud.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
+<!-- End Google Analytics -->
 
 </body>
 </html>
